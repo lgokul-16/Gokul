@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="L. Gokul — Class 11 Student, House Captain & Young Developer from Chennai.">
+    <meta name="author" content="L. Gokul">
+    <meta name="theme-color" content="#f5f0e8">
+    <title>Gokul — Student | Leader | Builder</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Instrument+Serif&family=JetBrains+Mono:wght@400;500&family=Patrick+Hand&family=Cormorant+Garamond:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📓</text></svg>">
+</head>
+<body>
+    <!-- Paper Texture Overlay -->
+    <div class="paper-texture"></div>
+    
+    <!-- Hand-drawn border frame -->
+    <div class="sketch-border">
+        <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <path class="sketch-line top" d="M5,5 Q25,3 50,5 T95,5"/>
+            <path class="sketch-line right" d="M95,5 Q97,25 95,50 T95,95"/>
+            <path class="sketch-line bottom" d="M95,95 Q75,97 50,95 T5,95"/>
+            <path class="sketch-line left" d="M5,95 Q3,75 5,50 T5,5"/>
+        </svg>
+    </div>
+
+    <!-- Coffee Stain Decorations -->
+    <div class="coffee-stain stain-1"></div>
+    <div class="coffee-stain stain-2"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <div class="logo-sketch">
+                    <svg viewBox="0 0 60 60" width="40" height="40">
+                        <rect x="8" y="8" width="44" height="44" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="4,2"/>
+                        <text x="30" y="38" text-anchor="middle" font-size="24" font-family="'Instrument Serif', serif">L</text>
+                    </svg>
+                </div>
+                <span class="logo-text">Gokul</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger-line line-1"></span>
+                <span class="hamburger-line line-2"></span>
+                <span class="hamburger-line line-3"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#journey" class="nav-link">Journey</a></li>
+                <li><a href="#leadership" class="nav-link">Leadership</a></li>
+                <li><a href="#developer" class="nav-link">Developer</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <!-- Hand-drawn name badge -->
+            <div class="name-badge">
+                <div class="name-underline-decoration">
+                    <svg viewBox="0 0 200 20" preserveAspectRatio="none">
+                        <path d="M10,10 Q30,5 50,10 T90,10 T130,10 T170,10 L190,10" 
+                              fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        <circle cx="20" cy="8" r="3" fill="currentColor"/>
+                        <circle cx="180" cy="12" r="2" fill="currentColor"/>
+                    </svg>
+                </div>
+                <h1 class="name-handwritten">L. Gokul</h1>
+                <div class="name-doodle-right">
+                    <svg viewBox="0 0 40 40" width="30" height="30">
+                        <path d="M20,5 Q30,10 35,20 Q30,30 20,35 Q10,30 5,20 Q10,10 20,5" 
+                              fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+                              stroke-dasharray="3,2"/>
+                        <circle cx="20" cy="20" r="4" fill="currentColor" opacity="0.5"/>
+                    </svg>
+                </div>
+            </div>
+            
+            <!-- Location with hand-drawn pin -->
+            <div class="hero-location">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+                    <circle cx="12" cy="9" r="2.5"/>
+                </svg>
+                <span>Chennai, India</span>
+            </div>
+
+            <!-- Handwritten role tags -->
+            <div class="roles-container">
+                <div class="role-tag handwritten">
+                    <span class="tag-doodle">✦</span>
+                    Class 11 Student
+                    <span class="tag-doodle">✦</span>
+                </div>
+                <div class="role-tag handwritten">
+                    <span class="tag-doodle">★</span>
+                    House Captain
+                    <span class="tag-doodle">★</span>
+                </div>
+                <div class="role-tag handwritten">
+                    <span class="tag-doodle">⚡</span>
+                    Young Developer
+                    <span class="tag-doodle">⚡</span>
+                </div>
+                <div class="role-tag handwritten">
+                    <span class="tag-doodle">◈</span>
+                    Google Dev Community
+                    <span class="tag-doodle">◈</span>
+                </div>
+            </div>
+
+            <!-- Handwritten tagline on lined paper -->
+            <div class="tagline-paper">
+                <div class="paper-lines"></div>
+                <p class="tagline-text">Building technology, leading with integrity, creating impact beyond titles.</p>
+            </div>
+
+            <!-- Hand-drawn CTA buttons -->
+            <div class="hero-buttons">
+                <a href="#journey" class="btn btn-sketch primary">
+                    <span class="btn-text">View Journey</span>
+                    <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                    <span class="btn-sketch-lines">
+                        <svg viewBox="0 0 100 40" preserveAspectRatio="none">
+                            <path d="M5,20 Q25,15 50,20 T95,20" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.5"/>
+                            <path d="M5,25 Q25,20 50,25 T95,25" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.3"/>
+                        </svg>
+                    </span>
+                </a>
+                <a href="#leadership" class="btn btn-sketch secondary">
+                    <span class="btn-text">Explore Work</span>
+                </a>
+                <a href="#contact" class="btn btn-sketch outline">
+                    <span class="btn-text">Contact</span>
+                </a>
+            </div>
+
+            <!-- Hand-drawn social links -->
+            <div class="hero-social">
+                <a href="https://github.com/lgokul-16" target="_blank" rel="noopener" class="social-link sketch-circle" aria-label="GitHub">
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
+                        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-6.24 0-1.38.48-2.52 1.26-3.435-.255-.3-.54-1.29.015-2.685 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.555 1.395.27 2.385.015 2.685.78.915 1.26 2.055 1.26 3.435 0 4.92-2.805 5.94-5.475 6.24.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                    </svg>
+                </a>
+                <a href="mailto:lgokul@zohomail.in" class="social-link sketch-circle" aria-label="Email">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="22" height="22">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                        <polyline points="22,6 12,13 2,6"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <!-- Scroll indicator - hand drawn -->
+        <div class="scroll-indicator-hand">
+            <span class="scroll-text">scroll down</span>
+            <svg viewBox="0 0 40 60" width="30" height="45">
+                <ellipse cx="20" cy="30" rx="15" ry="25" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4,3"/>
+                <circle cx="20" cy="25" r="4" fill="currentColor" class="scroll-dot"/>
+            </svg>
+        </div>
+
+        <!-- Decorative hand-drawn elements -->
+        <div class="hero-doodles">
+            <svg class="doodle doodle-star" viewBox="0 0 40 40">
+                <path d="M20,2 L24,14 L37,14 L27,22 L31,35 L20,27 L9,35 L13,22 L3,14 L16,14 Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+            <svg class="doodle doodle-spiral" viewBox="0 0 40 40">
+                <path d="M20,20 Q25,15 30,20 T35,30" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            <svg class="doodle doodle-wave" viewBox="0 0 60 30">
+                <path d="M5,15 Q15,5 25,15 T45,15 T55,15" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title handwritten-title">
+                <span class="title-subtitle hand-written">Introduction</span>
+                <span class="title-main">Who I Am</span>
+            </h2>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="handwritten-block">
+                        <p class="about-intro">
+                            I'm a Class 11 student at <strong>Sandipani Vidyalaya, Chennai</strong>, where I joined in the 2025–26 academic year. As the <strong>House Captain of Satpura</strong>, I lead with integrity and purpose.
+                        </p>
+                        <p>
+                            A young developer passionate about building useful technology and a member of the <strong>Google Developer Community</strong>, I aspire to become a technologist and entrepreneur, known for organising large-scale events and mobilising people effectively.
+                        </p>
+                    </div>
+                    
+                    <!-- Hand-drawn quote box -->
+                    <blockquote class="quote-box">
+                        <svg class="quote-mark-large" viewBox="0 0 40 40" width="30" height="30">
+                            <path d="M10,10 L15,10 L15,25 L10,25 Z M25,10 L30,10 L30,25 L25,25 Z" fill="currentColor" opacity="0.3"/>
+                        </svg>
+                        <p class="quote-text">Leadership and technology together can transform communities.</p>
+                        <div class="quote-decoration">
+                            <svg viewBox="0 0 60 20" preserveAspectRatio="none">
+                                <path d="M5,10 Q30,5 55,10" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="3,2"/>
+                            </svg>
+                        </div>
+                    </blockquote>
+                </div>
+                
+                <!-- Hand-crafted highlights cards -->
+                <div class="about-highlights">
+                    <div class="highlight-card sketch-card">
+                        <div class="card-corner corner-tl"></div>
+                        <div class="card-corner corner-br"></div>
+                        <span class="highlight-icon">🎓</span>
+                        <h3>Academic Excellence</h3>
+                        <p>Class 10 CBSE Boards</p>
+                        <div class="score-stamp">
+                            <svg viewBox="0 0 80 80">
+                                <circle cx="40" cy="40" r="35" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="5,3"/>
+                                <text x="40" y="48" text-anchor="middle" font-family="'Patrick Hand', cursive" font-size="24">90%</text>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="highlight-card sketch-card">
+                        <div class="card-corner corner-tl"></div>
+                        <div class="card-corner corner-br"></div>
+                        <span class="highlight-icon">🏆</span>
+                        <h3>Leadership</h3>
+                        <p>Satpura House Captain</p>
+                        <span class="highlight-status stamp">Active Role</span>
+                    </div>
+                    <div class="highlight-card sketch-card">
+                        <div class="card-corner corner-tl"></div>
+                        <div class="card-corner corner-br"></div>
+                        <span class="highlight-icon">💻</span>
+                        <h3>Developer</h3>
+                        <p>Google Dev Community</p>
+                        <span class="highlight-status stamp">Member</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey Section -->
+    <section class="section journey" id="journey">
+        <div class="container">
+            <h2 class="section-title handwritten-title">
+                <span class="title-subtitle hand-written">Timeline</span>
+                <span class="title-main">My Journey</span>
+            </h2>
+            
+            <!-- Hand-drawn timeline -->
+            <div class="timeline-handdrawn">
+                <svg class="timeline-spine" viewBox="0 0 10 500" preserveAspectRatio="none">
+                    <path d="M5,0 Q8,50 5,100 T5,200 T5,300 T5,400 L5,500" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="5,3"/>
+                </svg>
+                
+                <div class="timeline-item">
+                    <div class="timeline-node">
+                        <div class="node-dot"></div>
+                        <div class="node-ring"></div>
+                    </div>
+                    <div class="timeline-content sketch-card">
+                        <span class="timeline-year handwritten">2025</span>
+                        <h3>New Beginning</h3>
+                        <p>Joined Sandipani Vidyalaya after Class 10, stepping into a new chapter of growth and opportunity.</p>
+                        <span class="timeline-tag">Foundation</span>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-node">
+                        <div class="node-dot"></div>
+                        <div class="node-ring"></div>
+                    </div>
+                    <div class="timeline-content sketch-card">
+                        <span class="timeline-year handwritten">2025</span>
+                        <h3>Leadership Emerges</h3>
+                        <p>Selected as Satpura House Captain in my first year — a testament to trust and potential.</p>
+                        <span class="timeline-tag">Leadership</span>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-node">
+                        <div class="node-dot"></div>
+                        <div class="node-ring"></div>
+                    </div>
+                    <div class="timeline-content sketch-card">
+                        <span class="timeline-year handwritten">2025</span>
+                        <h3>Developer Mindset</h3>
+                        <p>Started building websites and exploring automation and technology to solve real problems.</p>
+                        <span class="timeline-tag">Technology</span>
+                    </div>
+                </div>
+                
+                <div class="timeline-item highlight-item">
+                    <div class="timeline-node special">
+                        <div class="node-dot"></div>
+                        <div class="node-ring"></div>
+                        <div class="node-sparkle">★</div>
+                    </div>
+                    <div class="timeline-content sketch-card featured">
+                        <span class="timeline-year handwritten">2025–26</span>
+                        <h3>Redemption Leadership</h3>
+                        <p>Led Satpura to a fair Sports Day victory, restoring the house's reputation through integrity.</p>
+                        <span class="timeline-tag highlight">Victory</span>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-node">
+                        <div class="node-dot"></div>
+                        <div class="node-ring"></div>
+                    </div>
+                    <div class="timeline-content sketch-card">
+                        <span class="timeline-year handwritten">Present</span>
+                        <h3>Campus Impact</h3>
+                        <p>Became a trusted student leader and recognised organiser across school initiatives.</p>
+                        <span class="timeline-tag current">Current</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Section -->
+    <section class="section leadership" id="leadership">
+        <div class="container">
+            <h2 class="section-title handwritten-title">
+                <span class="title-subtitle hand-written">Impact</span>
+                <span class="title-main">Leadership & Impact</span>
+            </h2>
+            
+            <div class="cards-grid">
+                <div class="card sketch-card">
+                    <div class="card-tape"></div>
+                    <div class="card-icon">🏆</div>
+                    <h3>Sports Day Leadership</h3>
+                    <ul class="handwritten-list">
+                        <li><span class="bullet">◦</span> Led Satpura to championship victory</li>
+                        <li><span class="bullet">◦</span> Ensured fair play and integrity</li>
+                        <li><span class="bullet">◦</span> Restored house reputation</li>
+                    </ul>
+                    <div class="card-footer">
+                        <span class="card-badge">Achievement</span>
+                    </div>
+                </div>
+                
+                <div class="card sketch-card featured-card">
+                    <div class="card-ribbon">Featured</div>
+                    <div class="card-tape"></div>
+                    <div class="card-icon">🎬</div>
+                    <h3>Sanjosh Cultural Event</h3>
+                    <ul class="handwritten-list">
+                        <li><span class="bullet">◦</span> Director & scriptwriter</li>
+                        <li><span class="bullet">◦</span> Managed filming and editing team</li>
+                        <li><span class="bullet">◦</span> Produced high-impact promotional trailer</li>
+                        <li><span class="bullet">◦</span> Received auditorium-wide acclaim</li>
+                    </ul>
+                    <div class="card-footer">
+                        <span class="card-badge highlight">Creative</span>
+                    </div>
+                </div>
+                
+                <div class="card sketch-card">
+                    <div class="card-tape"></div>
+                    <div class="card-icon">🎉</div>
+                    <h3>Teachers' Day Celebration</h3>
+                    <ul class="handwritten-list">
+                        <li><span class="bullet">◦</span> Organised large-scale celebration</li>
+                        <li><span class="bullet">◦</span> Coordinated games, performances, activities</li>
+                        <li><span class="bullet">◦</span> Mobilised participation through direct connectivity</li>
+                        <li><span class="bullet">◦</span> Delivered energetic, memorable event</li>
+                    </ul>
+                    <div class="card-footer">
+                        <span class="card-badge">Event</span>
+                    </div>
+                </div>
+                
+                <div class="card sketch-card">
+                    <div class="card-tape"></div>
+                    <div class="card-icon">🎓</div>
+                    <h3>Annual Day Programme</h3>
+                    <ul class="handwritten-list">
+                        <li><span class="bullet">◦</span> Key role in organising major function</li>
+                        <li><span class="bullet">◦</span> Managed logistics and coordination</li>
+                        <li><span class="bullet">◦</span> Ensured smooth event delivery</li>
+                    </ul>
+                    <div class="card-footer">
+                        <span class="card-badge">Event</span>
+                    </div>
+                </div>
+                
+                <div class="card sketch-card">
+                    <div class="card-tape"></div>
+                    <div class="card-icon">🎓</div>
+                    <h3>Class 12 Farewell</h3>
+                    <ul class="handwritten-list">
+                        <li><span class="bullet">◦</span> Led planning and execution</li>
+                        <li><span class="bullet">◦</span> Created meaningful send-off experience</li>
+                        <li><span class="bullet">◦</span> Managed coordination under time pressure</li>
+                    </ul>
+                    <div class="card-footer">
+                        <span class="card-badge">Leadership</span>
+                    </div>
+                </div>
+                
+                <div class="card sketch-card">
+                    <div class="card-tape"></div>
+                    <div class="card-icon">💻</div>
+                    <h3>Technology Initiatives</h3>
+                    <ul class="handwritten-list">
+                        <li><span class="bullet">◦</span> Developed websites and digital solutions</li>
+                        <li><span class="bullet">◦</span> Applied technology for efficiency</li>
+                        <li><span class="bullet">◦</span> Promoted digital creativity in school</li>
+                    </ul>
+                    <div class="card-footer">
+                        <span class="card-badge">Tech</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Leadership principle - handwritten note style -->
+            <div class="leadership-principle">
+                <div class="principle-note">
+                    <div class="note-pin"></div>
+                    <div class="principle-header">
+                        <span class="principle-icon">◈</span>
+                        <h3 class="handwritten">School Council & Organising Style</h3>
+                    </div>
+                    <p class="handwritten">As a School Council Member known for execution and reliability, I build direct relationships rather than relying on bureaucracy. I mobilise people through trust and connectivity.</p>
+                    <p class="principle-highlight handwritten"><strong>Influence comes from relationships, not titles.</strong></p>
+                    <div class="note-fold"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Developer Section -->
+    <section class="section developer" id="developer">
+        <div class="container">
+            <h2 class="section-title handwritten-title">
+                <span class="title-subtitle hand-written">Craft</span>
+                <span class="title-main">Developer Profile</span>
+            </h2>
+            
+            <div class="developer-content">
+                <div class="dev-intro sketch-block">
+                    <div class="block-header">
+                        <span class="block-number">01.</span>
+                        <h3 class="handwritten">Young Developer</h3>
+                    </div>
+                    <p>I build websites and digital tools with a focus on automation and AI-powered solutions. My passion lies in exploring real-world tech applications that create tangible impact.</p>
+                    <div class="block-decoration">
+                        <svg viewBox="0 0 100 30">
+                            <path d="M5,15 Q25,10 45,15 T85,15 T95,15" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="3,2"/>
+                        </svg>
+                    </div>
+                </div>
+                
+                <div class="dev-community sketch-block">
+                    <div class="block-header">
+                        <span class="block-number">02.</span>
+                        <h3 class="handwritten">Google Developer Community</h3>
+                    </div>
+                    <p>As a member, I engage with the global developer ecosystem, learning modern tools and best practices while building impactful technology.</p>
+                    <div class="block-decoration">
+                        <svg viewBox="0 0 100 30">
+                            <path d="M5,15 Q25,10 45,15 T85,15 T95,15" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="3,2"/>
+                        </svg>
+                    </div>
+                </div>
+                
+                <div class="tech-interests">
+                    <h3 class="handwritten">Technical Interests</h3>
+                    <div class="interest-tags">
+                        <span class="tech-tag handwritten-tag">Web Development</span>
+                        <span class="tech-tag handwritten-tag">Automation Systems</span>
+                        <span class="tech-tag handwritten-tag">AI Tools & Productivity</span>
+                        <span class="tech-tag handwritten-tag">IoT & Smart Systems</span>
+                    </div>
+                </div>
+                
+                <div class="future-projects sketch-block">
+                    <div class="block-header">
+                        <span class="block-number">03.</span>
+                        <h3 class="handwritten">Tech & Future Projects</h3>
+                    </div>
+                    <ul class="handwritten-list">
+                        <li><span class="bullet">→</span> Raspberry Pi voice assistant system</li>
+                        <li><span class="bullet">→</span> Website & automation projects</li>
+                        <li><span class="bullet">→</span> Smart home & AI integration experiments</li>
+                        <li><span class="bullet">→</span> Interest in scalable tech solutions</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <h2 class="section-title handwritten-title">
+                <span class="title-subtitle hand-written">Expertise</span>
+                <span class="title-main">Skills & Strengths</span>
+            </h2>
+            
+            <div class="skills-grid">
+                <div class="skill-category sketch-category">
+                    <div class="category-header">
+                        <span class="skill-icon">🎯</span>
+                        <h3 class="handwritten">Leadership</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="handwritten-tag">Event Management</span>
+                        <span class="handwritten-tag">Public Relations</span>
+                        <span class="handwritten-tag">Systems Thinking</span>
+                        <span class="handwritten-tag">Team Coordination</span>
+                        <span class="handwritten-tag">Strategic Planning</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category sketch-category">
+                    <div class="category-header">
+                        <span class="skill-icon">⚡</span>
+                        <h3 class="handwritten">Technical</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="handwritten-tag">Web Development</span>
+                        <span class="handwritten-tag">Basic Programming</span>
+                        <span class="handwritten-tag">AI Tools & Automation</span>
+                        <span class="handwritten-tag">Video Direction & Editing</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category sketch-category">
+                    <div class="category-header">
+                        <span class="skill-icon">📚</span>
+                        <h3 class="handwritten">Academic</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="handwritten-tag">Class 10 CBSE: 90%</span>
+                        <span class="handwritten-tag">Problem Solving</span>
+                        <span class="handwritten-tag">Logical Systems</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Values - handwritten checklist style -->
+            <div class="values-section">
+                <h3 class="handwritten">Values & Leadership Principles</h3>
+                <div class="values-grid">
+                    <div class="value-item checklist-item">
+                        <span class="checkmark">✓</span>
+                        <span class="handwritten">Integrity over shortcuts</span>
+                    </div>
+                    <div class="value-item checklist-item">
+                        <span class="checkmark">✓</span>
+                        <span class="handwritten">Responsibility over recognition</span>
+                    </div>
+                    <div class="value-item checklist-item">
+                        <span class="checkmark">✓</span>
+                        <span class="handwritten">Execution over promises</span>
+                    </div>
+                    <div class="value-item checklist-item">
+                        <span class="checkmark">✓</span>
+                        <span class="handwritten">Collaboration over ego</span>
+                    </div>
+                    <div class="value-item checklist-item">
+                        <span class="checkmark">✓</span>
+                        <span class="handwritten">Calmness under pressure</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision Section -->
+    <section class="section vision">
+        <div class="container">
+            <div class="vision-content">
+                <div class="vision-statement-box">
+                    <svg class="vision-decoration" viewBox="0 0 100 100" width="60" height="60">
+                        <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="5,3"/>
+                        <circle cx="50" cy="50" r="35" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="3,2"/>
+                        <path d="M50,15 L50,25 M50,75 L50,85 M15,50 L25,50 M75,50 L85,50" stroke="currentColor" stroke-width="1"/>
+                    </svg>
+                    <h2 class="handwritten">Future Vision</h2>
+                    <p class="vision-statement handwritten">To build technology that simplifies lives, empowers communities, and creates meaningful impact.</p>
+                    <div class="signature-line">
+                        <span class="handwritten">— L. Gokul</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title handwritten-title">
+                <span class="title-subtitle hand-written">Connect</span>
+                <span class="title-main">Get In Touch</span>
+            </h2>
+            
+            <div class="contact-content">
+                <div class="contact-card sketch-card">
+                    <div class="card-tape"></div>
+                    <div class="contact-info">
+                        <p class="location handwritten">
+                            <span class="location-icon">📍</span>
+                            Chennai, India
+                        </p>
+                        <div class="contact-links">
+                            <a href="mailto:lgokul@zohomail.in" class="contact-link">
+                                <span class="link-icon">✉</span>
+                                <span class="handwritten">lgokul@zohomail.in</span>
+                            </a>
+                            <a href="https://github.com/lgokul-16" target="_blank" rel="noopener" class="contact-link">
+                                <span class="link-icon">
+                                    <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                                        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-6.24 0-1.38.48-2.52 1.26-3.435-.255-.3-.54-1.29.015-2.685 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.555 1.395.27 2.385.015 2.685.78.915 1.26 2.055 1.26 3.435 0 4.92-2.805 5.94-5.475 6.24.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                                    </svg>
+                                </span>
+                                <span class="handwritten">GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-decoration">
+                        <svg viewBox="0 0 80 40">
+                            <path d="M10,20 Q30,10 50,20 T70,20" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="3,2"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-quote handwritten">Building technology. Leading with integrity. Creating impact.</p>
+                <div class="footer-divider">
+                    <svg viewBox="0 0 200 20" preserveAspectRatio="none">
+                        <path d="M5,10 Q50,5 100,10 T195,10" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="3,2"/>
+                    </svg>
+                </div>
+                <p class="footer-copy handwritten">&copy; <span id="currentYear">2026</span> L. Gokul. All rights reserved.</p>
+                <p class="footer-craft handwritten">Made with <span class="heart">♥</span> by Gokul</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
